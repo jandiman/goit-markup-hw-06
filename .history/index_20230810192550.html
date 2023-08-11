@@ -543,21 +543,21 @@
           <label class="form-label">
             <span class="form-label-text">Name</span>
             <input class="form-input" type="text" name="Name" required />
-            <svg class="form-icon" width="18" height="18">
+            <svg class="form-input-icon" width="18" height="18">
               <use href="./images/icons.svg#person-icon"></use>
             </svg>
           </label>
           <label class="form-label">
             <span class="form-label-text">Phone</span>
             <input class="form-input" type="tel" name="Name" required />
-            <svg class="form-icon" width="18" height="18">
+            <svg class="form-input-icon" width="18" height="18">
               <use href="./images/icons.svg#phone-icon"></use>
             </svg>
           </label>
           <label class="form-label">
             <span class="form-label-text">Email</span>
             <input class="form-input" type="email" name="Name" required />
-            <svg class="form-icon" width="18" height="18">
+            <svg class="form-input-icon" width="18" height="18">
               <use href="./images/icons.svg#email-icon"></use>
             </svg>
           </label>
@@ -569,21 +569,15 @@
               placeholder="Text input"
             ></textarea>
           </label>
-          <label class="form-agreement">
-            <input
-              class="form-checkbox visually-hidden"
-              type="checkbox"
-              required
-            />
-            <svg class="form-checkbox-icon" width="16" height="16">
-              <use href="./images/icons.svg#icon-check"></use>
-            </svg>
-            <span class="checkbox-text"
+          <label class="form-label">
+            <input class="checkbox" type="checkbox" required />
+            <span class="checkbox-icon"
               >I accept the terms and conditions of the
-              <a class="form-terms" href="">Privacy Policy</a></span
+              <a class="" href="">Privacy Policy</a></span
             >
+            <span class="form-agreement"></span>
           </label>
-          <button class="form-button" type="submit">Send</button>
+          <div class="send-button"></div>
         </form>
       </div>
     </div>

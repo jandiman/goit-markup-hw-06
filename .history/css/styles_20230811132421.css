@@ -500,22 +500,15 @@ img {
   height: 40px;
   background: var(--navyblue, #2e2f42);
   border: 1px solid var(--white, #fff);
-  border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding-left: 16px;
   display: flex;
   margin-top: 16px;
   color: var(--white);
-  outline: none;
 }
 
 .newsletter-field::placeholder {
-  color: var(--white, #fff);
-  font-family: inherit;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.48px;
+  color: var(--white);
 }
 
 .newsletter-field:placeholder-shown {
@@ -830,7 +823,6 @@ img {
   resize: none;
   padding-left: 16px;
   height: 120px;
-  margin-bottom: 16px;
 }
 
 .form-textarea::placeholder {
@@ -858,7 +850,7 @@ img {
 .form-button {
   display: block;
   margin: 0 auto;
-  width: 47%;
+  width: 105px;
 }
 
 .form-icon {
@@ -877,6 +869,7 @@ img {
 
 .form-agreement {
   display: flex;
+  justify-content: center;
   align-items: center;
   margin-bottom: 24px;
 }

@@ -506,19 +506,17 @@ img {
   display: flex;
   margin-top: 16px;
   color: var(--white);
-  outline: none;
 }
 
 .newsletter-field::placeholder {
-  color: var(--white, #fff);
-  font-family: inherit;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.48px;
+  color: var(--white);
 }
 
 .newsletter-field:placeholder-shown {
+  border-color: var(--white);
+}
+
+.newsletter-field:not(placeholder-shown) {
   border-color: var(--white);
 }
 
